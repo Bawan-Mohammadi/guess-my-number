@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      type="text/javascript"
+      src="/___vscode_livepreview_injected_script"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number!</title>
+    <link rel="stylesheet" type="text/css" href="guess.css" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div>
+        <button class="button">Again!</button>
+      </div>
+      <div class="right">
+        <p>(Between 1 and 20)</p>
+      </div>
+    </div>
+    <div class="big">
+      <p>Guess My Number!</p>
+    </div>
+    <div class="box-hr">
+      <span class="hr"></span>
+      <div class="box"><p></p></div>
+      <span class="hr"></span>
+      <!-- flexbox distributes space among flex items.
+So we create three flex items: -->
+    </div>
+    <div class="nav-barr empty">
+      <div>
+        <label>
+          <input class="input" type="number" min="1" max="20" maxlength="2" />
+        </label>
+      </div>
+      <div class="color text-box">
+        <p class="message">Start guessing...</p>
+      </div>
+    </div>
+    <div class="nav-barr">
+      <div>
+        <button class="small ">Check!</button>
+      </div>
+      <div class="color">
+        <p>💯 Score: <span id="score"> 20 </span></p>
+        <p>🥇 Highscore: <span id="highscore">0</span></p>
+      </div>
+    
+    </div>
+
+
+    <script src="guess.js"></script>
+  </body>
+</html>
