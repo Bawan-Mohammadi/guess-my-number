@@ -7,7 +7,7 @@ This is a simple number‑guessing game built using HTML, CSS, and JavaScript.
 The player must guess a secret number between 1 and 20, receiving hints like “too high” or “too low” until they find the correct answer.
 This is my fourth project, focused on improving my JavaScript logic and understanding of DOM interaction.
 
-✨ Features
+✨ Features:
      Random number generation, 
      Real‑time feedback (too high / too low / correct), 
      Dynamic score tracking, 
